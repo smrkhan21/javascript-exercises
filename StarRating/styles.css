@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .flex-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .item {
+    text-align: center;
+    color: black;
+    background-color: #b9bcf37d;
+    border-radius: 25px;
+    padding: 20px 30px;
+    margin: 10px;
+    box-shadow: 5px 10px 20px azure inset;
+  }
+  
+  .icons {
+    color: white;
+    padding: 10px;
+  }
+  
+  .active {
+    color: orange;
+  }
+  

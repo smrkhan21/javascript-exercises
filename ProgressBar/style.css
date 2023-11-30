@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-bar-container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.progress-bar {
+    border: 1px solid rgba(149, 157, 165, 0.3);
+    width: 100%;
+    border-radius: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.progress {
+    border: 1px solid rgba(149, 157, 165, 0.3);
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: green;
+    width: 0%;
+}
